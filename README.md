@@ -17,7 +17,9 @@ cd repo_dir
 ```bash
 # Install dependencies
 $ npm install
+```
 
+```bash
 # Run the app
 $ npm start
 ```
