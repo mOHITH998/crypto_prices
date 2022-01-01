@@ -15,10 +15,10 @@ async function scrapeData() {
         "index",
         "name",
         "price",
-        "hours",
-        "days",
+        "24hours_%",
+        "7day_%",
         "market_cap",
-        "volume",
+        "volume_24h",
         "circulating_supply",
     ]
     let json = {}
@@ -38,7 +38,7 @@ async function scrapeData() {
                 }
             }
         })
-        // console.log(array)
+        console.table(array)
         return array
     } catch (error) {
         console.error(error)
